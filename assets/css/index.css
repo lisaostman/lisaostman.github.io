@@ -1,5 +1,6 @@
 body {
     background-color: grey;
+    background-image: url("../images/seigaiha.png");
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -8,7 +9,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 75px;
     background-color: white;
     left: 0;
     border-bottom: solid #cccccc 1px;
@@ -20,9 +21,9 @@ body {
     left: 20%;
     bottom:0px;
     width: 20%;
-    height: 100px;
+    height: 75px;
     vertical-align: middle;
-    line-height: 100px; 
+    line-height: 75px; 
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -46,4 +47,25 @@ h2 {
 
 footer {
     background-color: #666666;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 75px;
+    border-top: 8px solid #4aaaa5;
+    left: 0;
+    
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    left: 45%;
+    margin: 0 auto;
+    color: white;
+}
+
+.image {
+    float: left;
+    margin: 10px 10px 10px 10px
 }
