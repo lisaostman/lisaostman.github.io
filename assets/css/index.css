@@ -53,19 +53,63 @@ footer {
     height: 75px;
     border-top: 8px solid #4aaaa5;
     left: 0;
-    
 }
 
 .bottom {
     position: absolute;
-    bottom: 0;
+    padding: 3px 3px 3px 3px;
+    bottom: 0px;
     width: 10%;
     left: 45%;
     margin: 0 auto;
     color: white;
+    font-size: 10px;
 }
 
 .image {
     float: left;
     margin: 10px 10px 10px 10px
+}
+
+#nav3 {
+    width: 5%;
+    position: absolute;
+    right: 10%;
+    bottom: 0px;
+    height: 75px;
+    vertical-align: middle;
+    line-height: 75px; 
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#nav2 {
+    width: 5%;
+    position: absolute;
+    right: 15%;
+    bottom: 0px;
+    height: 75px;
+    vertical-align: middle;
+    line-height: 75px; 
+    margin: 0 auto;
+    text-align: center;
+
+}
+#nav1 {
+    width: 5%;
+    position: absolute;
+    right: 20%;
+    bottom: 0px;
+    height: 75px;
+    vertical-align: middle;
+    line-height: 75px; 
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #dddddd;
 }
