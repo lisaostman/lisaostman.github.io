@@ -5,6 +5,10 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+hr {
+    background-color: #cccccc
+}
+
 .header {
     position: fixed;
     top: 0;

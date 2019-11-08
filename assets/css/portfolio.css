@@ -1,0 +1,32 @@
+.grids {
+    width: 40%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+}
+.grid {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #4aaaa5;
+    height: 20%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    color: #ffffff;
+}
+
+.about {
+    top: 100px;
+}
