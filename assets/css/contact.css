@@ -10,6 +10,18 @@ input[type=text]:focus {
     background-color: #bef3f0;
   }
 
-.message {
-    height: 200px;
+
+
+input[type=Submit] {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: #4aaaa5;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin: 10px 0px 10px 0px;
 }

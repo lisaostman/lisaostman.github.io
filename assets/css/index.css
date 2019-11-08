@@ -3,6 +3,7 @@ body {
     background-image: url("../images/seigaiha.png");
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1vw;
 }
 
 hr {
@@ -13,7 +14,7 @@ hr {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 75px;
+    height: 10vh;
     background-color: white;
     left: 0;
     border-bottom: solid #cccccc 1px;
@@ -25,9 +26,9 @@ hr {
     left: 20%;
     bottom:0px;
     width: 20%;
-    height: 75px;
+    height: 10vh;
     vertical-align: middle;
-    line-height: 75px; 
+    line-height: 10vh; 
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -47,6 +48,7 @@ hr {
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 2vw;
 }
 
 footer {
@@ -54,7 +56,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    height: 75px;
+    height: 10vh;
     border-top: 8px solid #4aaaa5;
     left: 0;
 }
@@ -80,12 +82,13 @@ footer {
     position: absolute;
     right: 10%;
     bottom: 0px;
-    height: 75px;
+    height: 10vh;
     vertical-align: middle;
-    line-height: 75px; 
+    line-height: 10vh; 
     margin: 0 auto;
     text-align: center;
-
+    font-size: 1vw;
+    overflow: hidden;
 }
 
 #nav2 {
@@ -93,24 +96,26 @@ footer {
     position: absolute;
     right: 15%;
     bottom: 0px;
-    height: 75px;
+    height: 10vh;
     vertical-align: middle;
-    line-height: 75px; 
+    line-height: 10vh; 
     margin: 0 auto;
     text-align: center;
-
+    font-size: 1vw;
+    overflow: hidden;
 }
 #nav1 {
     width: 5%;
     position: absolute;
     right: 20%;
     bottom: 0px;
-    height: 75px;
+    height: 10vh;
     vertical-align: middle;
-    line-height: 75px; 
+    line-height: 10vh; 
     margin: 0 auto;
     text-align: center;
-
+    font-size: 1vw;
+    overflow: hidden;
 }
 
 a, a:hover {

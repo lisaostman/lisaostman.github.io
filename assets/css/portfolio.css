@@ -10,6 +10,7 @@
     box-sizing: border-box;
     margin: 10px 10px 10px 10px;
 }
+
 .grid {
     height: 100%;
     width: 100%;
@@ -29,4 +30,8 @@
 
 .about {
     top: 100px;
+}
+
+img {
+    opacity: 0.8;
 }
