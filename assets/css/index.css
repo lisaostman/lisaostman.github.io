@@ -18,6 +18,7 @@ hr {
     background-color: white;
     left: 0;
     border-bottom: solid #cccccc 1px;
+    margin-bottom: 50px;
 }
 
 #name {
@@ -34,16 +35,35 @@ hr {
     color: white;
 }
 
+.index {
+    width: 100%;
+    text-align:center;
+    margin: 10vh 20px 20px 20px;
+}
+
 .about {
+    margin: 20px 20px 20px 20px;
     background-color:white;
     width: 60%;
-    left: 20%;
-    margin: 0 auto;
-    position: fixed;
+    display: inline-block;
     top: 125px;
     padding: 20px 20px 20px 20px;
     border: solid #dddddd 1px ;
 }
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -10vh; 
+  }
+
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+  .site-footer, .page-wrap:after {
+    height: 10vh; 
+  }
 
 h2 {
     color: #4aaaa5;
