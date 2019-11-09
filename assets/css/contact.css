@@ -25,3 +25,7 @@ textarea {
   border-radius: 4px;
   margin: 10px 0px 10px 0px;
 }
+
+.left {
+  text-align:left;
+}
